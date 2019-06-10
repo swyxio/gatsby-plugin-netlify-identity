@@ -18,5 +18,13 @@
   ],
   "peerDependencies": {
     "gatsby": "^2.0.0"
+  },
+  "scripts": {
+    "version": "auto-changelog -p --template keepachangelog && git add .",
+    "prepublishOnly": "git push && git push --tags && gh-release"
+  },
+  "devDependencies": {
+    "auto-changelog": "^1.13.0",
+    "gh-release": "^3.5.0"
   }
 }
