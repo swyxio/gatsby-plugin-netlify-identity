@@ -1,0 +1,22 @@
+{
+  "name": "gatsby-plugin-netlify-identity",
+  "description": "Gatsby plugin which adds a React Netlify Identity Widget Provider for you",
+  "version": "0.0.1",
+  "main": "index.js",
+  "repository": "https://github.com/sw-yx/gatsby-plugin-netlify-identity.git",
+  "homepage": "https://github.com/sw-yx/gatsby-plugin-netlify-identity",
+  "author": "sw-yx <swyx@dontemail.me>",
+  "license": "MIT",
+  "dependencies": {
+    "react-netlify-identity-widget": "^0.1.3"
+  },
+  "keywords": [
+    "gatsby",
+    "gatsby-plugin",
+    "netlify",
+    "netlify-identity"
+  ],
+  "peerDependencies": {
+    "gatsby": "^2.0.0"
+  }
+}
