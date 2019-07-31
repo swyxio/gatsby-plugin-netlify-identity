@@ -1,6 +1,10 @@
-import React from "react"
-import { IdentityContextProvider } from "react-netlify-identity-widget"
-
-export const wrapRootElement = ({ element }, { url }) => (
-  <IdentityContextProvider url={url}>{element}</IdentityContextProvider>
-)
+import React from 'react'
+import { IdentityContextProvider } from 'react-netlify-identity-widget'
+export const wrapRootElement = ({ element }, { url }) =>
+  React.createElement(
+    IdentityContextProvider,
+    {
+      url: url,
+    },
+    element,
+  )
