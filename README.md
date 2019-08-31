@@ -49,7 +49,7 @@ const Layout = ({ children }) => {
   const identity = useIdentityContext()
   const [dialog, setDialog] = React.useState(false)
   const name =
-    (identity && identity.user && identity.user.user_metadata && identity.user.user_metadata.name) || "NoName"
+    (identity && identity.user && identity.user.user_metadata && identity.user.user_metadata.full_name) || "NoName"
 
   console.log(JSON.stringify(identity))
   const isLoggedIn = identity && identity.isLoggedIn
