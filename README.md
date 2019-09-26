@@ -1,6 +1,6 @@
 # gatsby-plugin-netlify-identity
 
-Gatsby plugin which adds a React Netlify Identity Widget Provider for you.
+Gatsby plugin which adds a React Netlify Identity Widget Provider for you!
 
 This is a very light wrapper just to help automate the boring parts, please see https://github.com/sw-yx/react-netlify-identity-widget for more info on how to use RNIW.
 
@@ -31,7 +31,7 @@ module.exports = {
 
 ## Options
 
-To use this, you must have a Netlify site instance with Netlify Identity enabled ([Deploy this demo to get started with one click](https://app.netlify.com/start/deploy?repository=https://github.com/sw-yx/jamstack-hackathon-starter&stack=cms)). Then take the URL of that Netlify site and pass it in as the `url` for this plugin's options.
+To use this, you must have a Netlify site instance with Netlify Identity enabled ([Deploy this demo to get started with one click](https://app.netlify.com/start/deploy?repository=https://github.com/sw-yx/jamstack-hackathon-starter&stack=cms&utm_source=github&utm_medium=swyx-RNI&utm_campaign=devex)). Then take the URL of that Netlify site and pass it in as the `url` for this plugin's options.
 
 ## Usage
 
